@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+/*  margin: 0; */
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  background: url('images/logo.jpg') no-repeat top center ;
+  background-size: contain;
+  background-attachment: scroll;
+  background-color: white;
+
+  /*overflow: hidden;*/
+  padding-top: 200px;
+  line-height: 1.5;
+  padding-bottom: 200px;
+}
